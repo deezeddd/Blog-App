@@ -1,0 +1,84 @@
+::selection {
+  color: white;
+  background-color: black;
+}
+.list {
+  height: 80%;
+  width: 80%;
+  padding: 0px;
+  /* margin: 2%; */
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.border-custom {
+  border: 1px solid rgb(255, 255, 255);
+  /* border-radius: 6px; */
+}
+.blog-list {
+  display: block;
+
+  height: 40px;
+  /* width: 500px; */
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 4px 20px 0px;
+}
+.blog-list:hover {
+  box-shadow: rgba(236, 233, 229, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.blog-name {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  padding-left: 7px;
+  padding-bottom: 7px;
+  /* padding-top: 5px; */
+}
+
+svg {
+  cursor: pointer;
+  margin-top: 5px;
+  width: 20px;
+  background-color: white;
+  color: red;
+  height: 30px;
+  margin-right: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  margin-top: 0px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+.edit-button {
+  font-size: small;
+  padding-top: 10px;
+  padding-right: 7px;
+  text-decoration: none;
+  margin-top: 7px;
+  background-color: white;
+  color: rgb(0, 157, 255);
+  border: 1px solid rgb(0, 157, 255);
+  margin-top: 0px;
+  border-radius: 3px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.edit-button:hover {
+  background-color: rgb(0, 157, 255);
+  color: white;
+}

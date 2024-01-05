@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Changes selected text  */
+::selection{
   color: white;
+  background-color: black;
+} 
+body {
+  font-family: "Space Grotesk", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.Home{
+  height: 200px;
+  width: 800px;
+  margin: 2%;
+  margin-left: 13%;
+  padding: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.border-custom {
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.blog-list {
+  text-decoration: none;
+  display: block;
+  color: black;
+  height: 40px;
+  /* width: 500px; */
+  text-align: center;
+  padding-top: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.blog-list:hover {
+  box-shadow: rgba(255, 167, 5, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@keyframes in{
+  0%{
+    transform: translateX(0%);
   }
-  to {
-    transform: rotate(360deg);
+  30%{
+    transform: translateX(80%);
   }
+  60%{
+    transform: translateX(40%);
+  }
+  80%{
+    transform: translateX(20%);
+  }
+
+}
+
+.app-heading{
+  /* animation: swipe 10s ease  reverse; */
+  animation: in 5s ease-in-out ;
+}
+
+
+.categoryWrapper{
+  height: 310px;
+  width: 460px;
+  /* background: url("http://ohlookawebsite.com/bathroomtestfull.jpg") no-repeat center center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.categoryWrapper:after{
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+
+background: -moz-linear-gradient(-45deg, #a29ca9 0%, #95909b 99%);
+background: -webkit-linear-gradient(-45deg, #a29ca9 0%,#95909b 99%); 
+background: linear-gradient(135deg, #a29ca9 0%,#95909b 99%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 );
+  content: '';
+  opacity: 0;
+    -webkit-transition: opacity 0.9s ease 0s; 
+}
+
+.categoryWrapper:hover:after{
+  opacity: 0.4;
+}
+
+.categoryWrapper h1{
+  text-decoration: none;
+  animation: fontColor 2s ease 0s infinite alternate-reverse;
+  text-align: center;
+  color:rgb(120, 74, 74);
+  font-size: 50px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.15s ease 0s; 
+  position: relative;
+  z-index: 10;
+}
+
+.categoryWrapper:hover h1{
+  transform: translateY(-10px);
+}
+
+@keyframes fontColor{
+  0%{
+    color: #000;
+  }
+  50%{
+    color: rgb(19, 98, 235);
+  }
+   75%{
+    color: rgb(237, 151, 12);
+  }
+  100%{
+    color: rgb(179, 168, 173);
+  }
+
 }

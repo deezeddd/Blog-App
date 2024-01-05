@@ -1,0 +1,60 @@
+.content{
+    border: 1px solid rgb(201, 187, 187);
+    min-height: 180px;
+    height: fit-content;
+    padding: 6px;
+    line-height: 30px
+}
+
+.footer{
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+    color: #fe0000;
+}
+svg{
+    cursor: pointer;
+    margin-top: 5px;
+    width: 20px;
+    background-color: white;
+    color: red;
+    height: 17px;
+  }
+
+  .btn-delete{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    margin-top: 0px;
+    margin-right: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+  font-family: "Space Grotesk", sans-serif;
+  }
+
+  .btn-delete:hover{
+    background-color: red;
+    color: white;
+  }
+
+  .edit-button{
+    font-size: small;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    width: 20%;
+    text-decoration: none;
+    /* margin-top: 3px; */
+    background-color: white;
+    color: rgb(0, 157, 255);
+    border: 1px solid rgb(0, 157, 255);
+    margin-top: 0px;
+    border-radius: 3px;
+  font-family: "Space Grotesk", sans-serif;
+
+  }
+  
+  .edit-button:hover{
+    background-color: rgb(0, 157, 255);
+    color: white;
+  }

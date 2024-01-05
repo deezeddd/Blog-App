@@ -1,0 +1,7 @@
+How to set up:
+
+Clear the local storage before running the application
+
+Application deployed on Surge,
+
+Link:- needless-verse.surge.sh

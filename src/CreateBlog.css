@@ -1,0 +1,77 @@
+.Create-Blog {
+  height: 80%;
+  width: 80%;
+  padding: 0px;
+  /* margin: 2%; */
+  margin-left: 10%;
+  padding: 10px;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  color: rgba(0, 140, 255, 0.644);
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: xx-large;
+}
+input {
+  font-size: large;
+  margin-top: 5px;
+  height: 80%;
+  width: 80vh;
+  padding: 3px;
+  padding-left: 7px;
+}
+textarea {
+  padding: 7px;
+  font-size: large;
+}
+
+form button {
+  font-family: "Space Grotesk", sans-serif;
+  height: 30px;
+  width: 100%;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+form button:hover {
+  width: 100%;
+}
+.submit-btn:hover {
+  width: 100%;
+  background-color: greenyellow;
+}
+.edit-btn {
+  font-size: small;
+  padding-left: 6px;
+  width: 100%;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(0, 157, 255);
+  border-radius: 3px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.edit-btn:hover {
+  width: 100%;
+  background-color: #b2ffff;
+}
+
+.cancel-btn:hover {
+  width: 100%;
+  background-color: #f2ba49;
+}
