@@ -1,3 +1,13 @@
+# How to setup
+
+ How to set up:
+
+Clear the local storage before running the application
+
+Application deployed on Surge,
+
+Link:- needless-verse.surge.sh
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
